@@ -29,15 +29,12 @@ function HeaderLinks({ ...props }) {
           buttonProps={{ className: classes.navLink, color: "transparent" }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="#" className={classes.dropdownLink}>
-              소개
-            </Link>,
-            <Link to="#" className={classes.dropdownLink}>
+            <a href="#portfolio" className={classes.dropdownLink}>
               포트폴리오 보기
-            </Link>,
-            <Link to="#" className={classes.dropdownLink}>
+            </a>,
+            <a href="#" className={classes.dropdownLink}>
               이력 보기
-            </Link>
+            </a>
           ]}
         />
       </ListItem>

@@ -1,9 +1,122 @@
 @import url("https://fonts.googleapis.com/css?family=Sunflower:300");
-
 .body {
   height: 2000px;
 }
 
-.introduce {
+.introduce,
+.toy__title,
+.project__title,
+.resume,
+.portfolio {
   font-family: "Sunflower", sans-serif;
+}
+
+.bar {
+  padding-top: 7%;
+}
+
+.skill {
+  font-size: 120%;
+}
+
+.introduce {
+  margin-bottom: 4em;
+}
+
+.portfolio {
+  margin: 2.5em 0 1em 0;
+  font-size: 170%;
+}
+
+.resume {
+  font-size: 170%;
+  margin-bottom: 1em;
+}
+
+.resume__container {
+  text-align: center;
+}
+
+/* ipad */
+
+@media (max-width: 993px) {
+  .skill {
+    font-size: 15px;
+  }
+}
+
+/* pixel 2 */
+
+@media (max-width: 411px) {
+  .introduce {
+    font-size: 13px;
+  }
+  .resume,
+  .portfolio {
+    font-size: 1em;
+  }
+  .skill {
+    font-size: 12px;
+  }
+  .bar {
+    margin-top: 20%;
+    padding-top: 7%;
+  }
+}
+
+/* iphone 6/7/8  plus */
+
+@media (max-width: 414px) {
+  .introduce {
+    font-size: 12px;
+  }
+  .resume,
+  .portfolio {
+    font-size: 1em;
+  }
+  .skill {
+    font-size: 12px;
+  }
+  .bar {
+    margin-top: 22%;
+    padding-top: 7%;
+  }
+}
+
+/* galaxy 5 */
+
+@media (max-width: 375px) {
+  .introduce {
+    font-size: 12px;
+  }
+  .resume,
+  .portfolio {
+    font-size: 1em;
+  }
+  .skill {
+    font-size: 10px;
+  }
+  .bar {
+    margin-top: 30%;
+    padding-top: 7%;
+  }
+}
+
+/* iphone 5 */
+
+@media (max-width: 320px) {
+  .introduce {
+    font-size: 10px;
+  }
+  .resume,
+  .portfolio {
+    font-size: 1em;
+  }
+  .skill {
+    font-size: 10px;
+  }
+  .bar {
+    margin-top: 30%;
+    padding-top: 7%;
+  }
 }
