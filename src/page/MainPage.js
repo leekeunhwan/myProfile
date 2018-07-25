@@ -115,9 +115,9 @@ class MainPage extends Component {
                   내일은 오늘보다 더 좋은 모습의 프론트엔드 개발자가<br />
                   되기위해 끊임없이 노력하는 개발자 이근환입니다.<br />
                   <br />
-                  #커피를좋아합니다 #음대출신개발자<br />
-                  #개발은뿌듯하다 #성장이고픈개발자<br />
-                  #365일 #멈추지않는TIL<br />
+                  #커피를좋아합니다 #일당백개발자가꿈입니다<br />
+                  #성실한성장을지향합니다 #성장이고픈개발자<br />
+                  #취미는앱개발 #끊임없는공부<br />
                   #노력과실력을겸비하자 #일잘하는개발자되기<br />
                 </h5>
               </div>
@@ -125,7 +125,7 @@ class MainPage extends Component {
                 <GridItem xs={3} />
                 <GridItem xs={6}>
                   <h6 className="resume">
-                    <i className="fas fa-briefcase" /> 보유 스킬
+                    <i className="fas fa-briefcase" /> 스킬 익숙도
                   </h6>
                 </GridItem>
                 <GridItem xs={3} />
@@ -155,7 +155,7 @@ class MainPage extends Component {
                     className="bar"
                     color="primary"
                     variant="determinate"
-                    value={60}
+                    value={65}
                   />
                 </GridItem>
                 <GridItem xs={3} />
