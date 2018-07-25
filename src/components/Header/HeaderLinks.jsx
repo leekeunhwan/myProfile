@@ -31,9 +31,6 @@ function HeaderLinks({ ...props }) {
           dropdownList={[
             <a href="#portfolio" className={classes.dropdownLink}>
               포트폴리오 보기
-            </a>,
-            <a href="#" className={classes.dropdownLink}>
-              이력 보기
             </a>
           ]}
         />
