@@ -116,9 +116,10 @@ class MainPage extends Component {
                   되기위해 끊임없이 노력하는 개발자 이근환입니다.<br />
                   <br />
                   #커피를좋아합니다 #일당백개발자가꿈입니다<br />
-                  #성실한성장을지향합니다 #성장이고픈개발자<br />
+                  #성실한성장을지향합니다 #성장이고픈개발자입니다<br />
                   #취미는앱개발 #끊임없는공부<br />
-                  #노력과실력을겸비하자 #일잘하는개발자되기<br />
+                  #노력과실력을겸비하고자합니다<br />
+                  #일잘하는개발자가되겠습니다<br />
                 </h5>
               </div>
               <GridContainer justify="center" className="resume__container">
