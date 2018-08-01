@@ -3,6 +3,10 @@
   height: 2000px;
 }
 
+div {
+  overflow: hidden;
+}
+
 .introduce,
 .toy__title,
 .project__title,
