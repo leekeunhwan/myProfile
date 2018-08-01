@@ -56,7 +56,7 @@ class MainPage extends Component {
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <React.Fragment>
-        <div style={{ overflow: hidden }}>
+        <div style={{ overflowX: hidden }}>
           <Header
             color="transparent"
             brand="Moong2's Profile"
